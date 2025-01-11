@@ -6,7 +6,7 @@ import io.vertx.core.Promise;
 import io.vertx.core.eventbus.EventBus;
 import io.vertx.ext.web.Router;
 import io.vertx.ext.web.handler.BodyHandler;
-import com.example.handler.EmployeeHandler;
+import com.employeemanagement.app.handler.EmployeeHandler;
 
 public class MainVerticle extends AbstractVerticle {
 
